@@ -1,0 +1,124 @@
+#work{
+  background-image: none;
+}
+.btext{
+  text-align:left;
+  padding-left: 7.5%;
+  padding-right: 5%;
+  margin-left:18.5%;
+  margin-right: 15%;
+  font-family: 'aileronlight';
+  font-size: 20px;
+  color: rgb(161, 161, 161);
+  line-height:1.5em;
+} 
+h1{
+  text-align: left;
+  margin-left: 26%;
+  font-family: 'aileronregular';
+  font-size: 40px;
+}
+.fh1{
+  margin-left:36%;
+}
+.ftext{
+  text-align:left;
+  padding-left: 7.5%;
+  padding-right: 5%;
+  margin-left:28.5%;
+  margin-right:28%;
+  font-family: 'aileronlight';
+  font-size: 20px;
+  color: rgb(161, 161, 161);
+  line-height:1.5em;
+}
+.alohatext{
+  text-align:left;
+  padding-left:18%;
+  padding-right: 5%;
+  font-family: 'aileronlight';
+  font-size: 20px;
+  color:rgb(161, 161, 161);
+  margin:auto 0;
+  margin-left:11%;
+  margin-right:22%;
+  line-height:1.5em;
+}
+.ah1{
+  margin-left:29%; 
+}
+.picturetext{
+  text-align:left;
+  padding-left:18%;
+  padding-right: 5%;
+  font-family: 'aileronlight';
+  font-size: 20px;
+  color:rgb(161, 161, 161);
+  margin:auto 0;
+  margin-left:11%;
+  margin-right:22%;
+  line-height:1.5em;
+}
+.ph1{
+  margin-left:29%;
+}
+.maritext{
+  text-align:left;
+  padding-left:18%;
+  padding-right: 5%;
+  font-family: 'aileronlight';
+  font-size: 20px;
+  color:rgb(161, 161, 161);
+  margin:auto 0;
+  margin-left:11%;
+  margin-right:22%;
+  line-height:1.5em;
+}
+.mh1{
+  margin-left:29%;
+}
+.daisytext{
+  text-align:left;
+  padding-left:18%;
+  padding-right: 5%;
+  font-family: 'aileronlight';
+  font-size: 20px;
+  color:rgb(161, 161, 161);
+  margin:auto 0;
+  margin-left:11%;
+  margin-right:22%;
+  line-height:1.5em;
+}
+.dh1{
+  margin-left:29%;
+}
+.icon-container{
+  /* position: relative; */
+  display:grid;
+  width:20%;
+  grid-gap:10px;
+  color:rgb(70, 231, 236);
+  /* justify-content: center; */
+  grid-template-columns:1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  align-items: center;
+  margin-left: 41%;
+  margin-top:5%;
+  /* column-gap: 100px; */
+}
+.insta{
+  width:70%;
+  color: rgb(70, 231, 236);
+}
+.mail{
+  width: 70%;
+}
+.cm1{
+  font-family: 'aileronsemibold';
+  margin-left:43%;
+  margin-top: 6%;
+  color: rgb(165, 223, 223);
+}
+#contactme{
+  background-image: url(assets/background-blue.svg);
+}

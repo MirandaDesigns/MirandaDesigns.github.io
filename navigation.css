@@ -1,0 +1,132 @@
+ .index-nav{
+    /* background-color:white;
+    z-index: -90; */
+} 
+.about-nav:hover{
+    color: pink;
+}
+
+.inner_main_menu{
+    margin: 0 auto;    
+}
+.inner_main_menu ul{
+    margin: 0 auto;
+    padding:130px;
+    /* background-color: white; */
+    list-style: none;
+    text-align: right;
+}
+.inner_main_menu ul li{
+    float: none;
+    display: inline-block;
+}
+.inner_main_menu ul li:nth-child(1){
+    float: left; 
+    margin-right: 7%;
+}
+.inner_main_menu ul li:nth-child(2){
+    float: left;
+    margin-right: 7%;
+}
+.inner_main_menu ul li:nth-child(3){
+    float: left;;
+
+}
+.inner_main_menu ul li:nth-child(4){
+    float: right;
+    margin-right: 5%;
+}
+.inner_main_menu ul li:nth-child(5){
+    float: right;
+    margin-right: 5%;
+}
+.inner_main_menu ul li a{
+    color: black;
+    font-size: 20px;
+    font-family:'aileronlight';
+    text-transform: uppercase;
+    text-decoration: none;
+    display: block;
+    padding: 10px 20px;
+}
+#main_menu{
+    /*width: 100%;*/
+    position: relative;
+}
+#aboutmepageinner_main_menu:hover{
+    color: teal;
+}
+.inner_main_menu :hover{
+    color:rgb(247, 150, 86);
+    font-family:'aileronsemibold';
+}
+#alohainner_main_men:hover{
+    color: hotpink;
+}
+
+ .logo_area{
+    width: 300px;
+    height:300px;
+    position: absolute;
+    left:43%;
+    top: 0;
+    content: none;
+    margin-left: -150px;
+    margin-top:5%;
+    z-index:-35;
+}  
+@media (max-width:1000px){
+    nav {
+        padding-left: 0;
+        padding-top: 120px;
+        /* background-color:blue; */
+    }
+    h1{
+      padding-top: 0px;
+    }
+    .inner_main_menu ul li{
+        float: none;
+        display: inline-block;
+    }
+    .inner_main_menu ul li:nth-child(1){
+        float: left; 
+        margin-right:0%;
+    }
+    .inner_main_menu ul li:nth-child(2){
+        float: left;
+        margin-right: 0%;
+    }
+    .inner_main_menu ul li:nth-child(3){
+        float: left;;
+    
+    }
+    .inner_main_menu ul li:nth-child(4){
+        float: left;
+        margin-right: 0%;
+    }
+    .inner_main_menu ul li:nth-child(5){
+        float: left;
+        margin-right: 0%;
+    }
+    .logo_area{
+        width: 300px;
+        height:300px;
+        position: absolute;
+        left:30%;
+        top: 0;
+        content: none;
+        margin-left: -150px;
+        margin-top:2%;
+        z-index:-35;
+    }  
+    .inner_main_menu ul li a{
+        color: black;
+        font-size:px;
+        font-family:'aileronlight';
+        text-transform: uppercase;
+        text-decoration: none;
+        display: block;
+        padding: 10px 20px;
+    }
+  }
+  

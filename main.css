@@ -1,0 +1,207 @@
+/* body styling */
+body{
+    /* background-image: url(assets/backgroundorange.svg); */
+    background-size:cover;
+    background-repeat: no-repeat;
+    margin:0 auto;
+    width: 100%;
+    height: auto;
+} 
+#homepage{
+    background-image: url(assets/backgroundorange.svg);
+}
+#work{
+    background-color: white;
+}
+#aboutmepage{
+    background-image: url(assets/background-pink.svg);
+}
+.text-container{
+    display: flex;
+}
+h1{
+    font-family: 'aileronsemibold';
+    letter-spacing: 1px;
+    text-align:left;
+}
+.bio{
+    font-family:'aileronlight';
+    color: black;
+    padding-top:90px;
+    font-size: 18px;
+    margin-left:35%;
+    margin-right:15%;
+    /* line-height:1.5em; */
+    position: absolute;
+    line-height:1.5em;
+}
+.bio1{
+    font-family:'aileronlight';
+    color: black;
+    padding-top: 270px;
+    position:absolute;
+    font-size: 18px;
+    margin-left:35%;
+    margin-right:15%;
+    line-height: 1.5em;
+}
+.picture{
+    margin: auto;
+    margin-top:6.5%;
+    margin-left: 5%;
+}
+button{
+    all: unset;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.button{
+    margin-top:35%;
+    padding:15px;
+    color: white;
+    background-color:#FDACA8;
+    display: block;
+    text-decoration: none;
+    font-family: 'aileronsemibold';
+    text-transform: uppercase;
+    position:absolute;
+    margin-left:35%;
+    text-align: center;
+    justify-content:center;
+    letter-spacing: 2px;
+}
+.button:hover{
+    background-color:#ffc6c3;
+}
+.image-gallery {
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr minmax(340px, 1fr)  minmax(340px, 1fr) minmax(340px, 1fr) 1fr;
+    grid-template-rows: auto;
+    grid-gap: 10px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    grid-template-areas:
+    ". a b c ."
+    ". d e f ."
+    ;
+}
+.box-styling {
+    height: 300px;
+    /* clip-path: polygon(5% 5%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%); */
+  }
+.box-wrapper{
+  height:350px;
+  /* border-radius: 1%; */
+}
+.box1 {
+    grid-area: a;
+    box-shadow:-10px 30px 100px 20px  rgb(36, 35, 35);;
+
+}
+.box2 {
+    grid-area: b;
+    box-shadow:-10px 30px 100px 20px  rgb(36, 35, 35);
+}
+.box3 {
+    grid-area: c;
+    box-shadow:-10px 30px 100px 20px  rgb(36, 35, 35);
+}
+.box4 {
+    grid-area: d;
+    box-shadow:-10px 30px 100px 20px rgb(36, 35, 35);
+}
+.box5 {
+    grid-area: e;
+    box-shadow:-10px 30px 100px 20px rgb(36, 35, 35);
+}
+.box6 {
+    grid-area: f;
+    box-shadow:-10px 30px 100px 20px rgb(36, 35, 35);
+}
+/* New
+6:34 */
+/* MEDIA QUERY FOR SMALL SCREENS */
+ @media (max-width:1100px){
+    .image-gallery {
+        padding-bottom: 0px;
+        margin-bottom: 600px;
+        grid-template-columns: 1fr minmax(350px, 1fr) minmax(350px, 1fr) 1fr;
+        grid-template-areas:
+        ". a b ."
+        ". c d ."
+        ". e f ."
+        ;
+    }
+ }
+/* MEDIA QUERY FOR MOBILE */
+ @media (max-width:735px){
+    .image-gallery {
+        padding-bottom: 200%;
+        grid-template-columns: 1fr minmax(400px, 1fr) 1fr;
+        grid-template-areas:
+        ".a."
+        ".b."
+        ".c."
+        ".d."
+        ".e."
+        ".f."
+        
+    }
+ }
+/* typography */
+@font-face {
+    font-family:'MightyDiteyNF';
+    src: url('assets/fonts/mightyditeynf_regular_macroman/MightyDiteyNF-webfont.woff2') format('woff2'),
+         url('assets/fonts/mightyditeynf_regular_macroman/MightyDiteyNF-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family:'aileronlight';
+    src: url('assets/fonts/aileron_light_macroman/Aileron-Light-webfont.eot');
+    src: url('assets/fonts/aileron_light_macroman/Aileron-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('assets/fonts/aileron_light_macroman/Aileron-Light-webfont.woff2') format('woff2'),
+         url('assets/fonts/aileron_light_macroman/Aileron-Light-webfont.woff') format('woff'),
+         url('assets/fonts/aileron_light_macroman/Aileron-Light-webfont.ttf') format('truetype'),
+         url('assets/fonts/aileron_light_macroman/Aileron-Light-webfont.svg#aileronlight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family:'aileronultralight';
+    src: url('assets/fonts/aileron_ultralight_macroman/Aileron-UltraLight-webfont.eot');
+    src: url('assets/fonts/aileron_ultralight_macroman/Aileron-UltraLight-webfont.eot?#iefix') format('embedded-opentype'),
+         url('assets/fonts/aileron_ultralight_macroman/Aileron-UltraLight-webfont.woff2') format('woff2'),
+         url('assets/fonts/aileron_ultralight_macroman/Aileron-UltraLight-webfont.woff') format('woff'),
+         url('assets/fonts/aileron_ultralight_macroman/Aileron-UltraLight-webfont.ttf') format('truetype'),
+         url('assets/fonts/aileron_ultralight_macroman/Aileron-UltraLight-webfont.svg#aileronultralight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family:'aileronregular';
+    src: url('assets/fonts/aileron_regular_macroman/Aileron-Regular-webfont.eot');
+    src: url('assets/fonts/aileron_regular_macroman/Aileron-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('assets/fonts/aileron_regular_macroman/Aileron-Regular-webfont.woff2') format('woff2'),
+         url('assets/fonts/aileron_regular_macroman/Aileron-Regular-webfont.woff') format('woff'),
+         url('assets/fonts/aileron_regular_macroman/Aileron-Regular-webfont.ttf') format('truetype'),
+         url('assets/fonts/aileron_regular_macroman/Aileron-Regular-webfont.svg#aileronregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family:'aileronsemibold';
+    src: url('assets/fonts/aileron_semibold_macroman/Aileron-SemiBold-webfont.eot');
+    src: url('assets/fonts/aileron_semibold_macroman/Aileron-SemiBold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('assets/fonts/aileron_semibold_macroman/Aileron-SemiBold-webfont.woff2') format('woff2'),
+         url('assets/fonts/aileron_semibold_macroman/Aileron-SemiBold-webfont.woff') format('woff'),
+         url('assets/fonts/aileron_semibold_macroman/Aileron-SemiBold-webfont.ttf') format('truetype'),
+         url('assets/fonts/aileron_semibold_macroman/Aileron-SemiBold-webfont.svg#aileronsemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
